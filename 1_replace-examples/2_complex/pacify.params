@@ -1,0 +1,7 @@
+--packagePath=deploymentPackage                 
+--copyTo=deploymentPackage_dev1
+--resolvers=CmdResolver,FileResolver                        
+-RCmdResolver.log.level=DEBUG
+-RFileResolver.file=properties/dev1.properties
+-RFileResolver.beginToken=%
+-RFileResolver.endToken=%
