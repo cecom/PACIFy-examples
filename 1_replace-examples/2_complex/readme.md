@@ -1,10 +1,12 @@
 Here you find a complex example. 
 
 1. The property file uses inheritance
-2. The property file does not use the default placeholder 
-3. The property value for log.level is overwritten by commandline
-4. The database/datasource.config doesn't use the default placeholder
-5. The pacify parameters are placed in a file
+1. The property file does not use the default placeholder
+1. The property value for log.level is overwritten by commandline
+1. The database/datasource.config doesn't use the default placeholder
+1. The pacify parameters are placed in a file
+
+<b></b>
 
     java -jar ..\..\pacify-shaded-*.jar    \  
          replace                           \

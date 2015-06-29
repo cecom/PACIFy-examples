@@ -4,9 +4,10 @@ Here you find some examples on how you can chain the resolvers and how you can t
 
 
 1. In this example, we overwrite the log.level with DEBUG via commandline:
-    java -jar ../../pacify-shaded-*.jar        \
-         createPropertyFile                    \
-         --resolvers=CmdResolver,FileResolver  \
-         -RCmdResolver.log.level=DEBUG         \
-         -RFileResolver.file=inheritance/dev/dev1.properties
+
+        java -jar ../../pacify-shaded-*.jar        \
+             createPropertyFile                    \
+             --resolvers=CmdResolver,FileResolver  \
+             -RCmdResolver.log.level=DEBUG         \
+             -RFileResolver.file=inheritance/dev/dev1.properties
    
