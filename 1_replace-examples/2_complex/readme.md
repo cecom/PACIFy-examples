@@ -8,7 +8,7 @@ Here you find a complex example.
 
     java -jar ..\..\pacify-shaded-*.jar    \  
          replace                           \
-	 @pacify.params
+         @pacify.params
    
 After that call, you find the dev1 configured package under deploymentPackage_dev1
   
