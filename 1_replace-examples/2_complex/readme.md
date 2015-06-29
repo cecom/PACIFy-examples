@@ -6,10 +6,9 @@ Here you find a complex example.
 4. The database/datasource.config doesn't use the default placeholder
 5. The pacify parameters are placed in a file
 
-Usage:
-   java -jar ..\..\pacify-shaded-*.jar                       \  
-             replace                                         \
-             @pacify.params
+    java -jar ..\..\pacify-shaded-*.jar    \  
+         replace                           \
+	 @pacify.params
    
 After that call, you find the dev1 configured package under deploymentPackage_dev1
   
