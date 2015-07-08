@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <Pacify xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../pacify.xsd">
-    <Property Name="log.level">
-        <File RelativePath="log4j2.xml"/>
-    </Property>
-	<Property Name="temp">
-        <File RelativePath="app.properties"/>
-    </Property>
+    <File RelativePath="log4j2.xml">
+        <Property Name="log.level"/>
+    </File>
+    <File RelativePath="app.properties">
+        <Property Name="temp"/>
+    </File>
 </Pacify>
