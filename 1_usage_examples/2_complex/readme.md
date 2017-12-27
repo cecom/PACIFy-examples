@@ -10,7 +10,7 @@ Here you find a complex example.
 
 <b></b>
 
-    java -jar ../../pacify-shaded-*.jar    \  
+    java -jar ../../pacify-shaded-*.jar    \
          replace                           \
          @pacify.params
    

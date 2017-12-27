@@ -15,11 +15,7 @@
     <Archive RelativePath="server.ear">
         <Archive RelativePath="app2.jar">
             <!-- RegEx used -->
-            <File RelativePath="conf*.txt" UseRegExResolution="true">
-                <Property Name="log.level"/>
-                <Property Name="jdbc.url"/>
-            </File>
-            <File RelativePath="subfolder/conf.txt">
+            <File RelativePath="conf.*.txt" UseRegExResolution="true">
                 <Property Name="log.level"/>
                 <Property Name="jdbc.url"/>
             </File>
