@@ -28,7 +28,7 @@ When PACIFy has to configure your package it has to resolve the placeholders. To
              --resolvers=CmdResolver              \
              -RCmdResolver.beginToken=@{          \
              -RCmdResolver.endToken=}             \
-             -RCmdResolver.jdbc.host=example.org  \  
+             -RCmdResolver.jdbc.host=example.org  \
              -RCmdResolver.jdbc.port=1521         \
              -RCmdResolver.jdbc.sid=xe            \
              -RCmdResolver.jdbc.url=jdbc:oracle:thin:@@{jdbc.host}:@{jdbc.port}/@{jdbc.sid}  
