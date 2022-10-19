@@ -6,7 +6,7 @@ PACIFy's default filter is com.geewhiz.pacify.filter.PacifyTokenFilter. This fil
 
 <b></b>
 
-    java -jar ../../pacify-shaded-*.jar    \
+    java -jar ../pacify-shaded-*.jar    \
          replace                           \
          --packagePath=deploymentPackage   \
          --copyTo=deploymentPackage_dev1   \
